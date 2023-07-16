@@ -50,5 +50,6 @@ pipeline {
                 sh 'curl --retry-delay 10 --retry 5 "http://54.234.161.229:8080//cbapp"'
             }
         }
+// sdf
     }
 }
