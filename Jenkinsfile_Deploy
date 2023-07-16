@@ -45,7 +45,6 @@ pipeline {
                 sh 'curl -u admin:Rhel@123 -T target/**.war "http://54.234.161.229:8080//manager/text/deploy?path=/cbapp&update=true"'
             }
         }   
-//dslkhfsd
           stage('Stage-9 : SmokeTest') { 
             steps {
                 sh 'curl --retry-delay 10 --retry 5 "http://54.234.161.229:8080//cbapp"'
