@@ -52,13 +52,13 @@ pipeline {
         // }
           stage('Stage-9 : Deployment - Deploy a Artifact devops-2.0.0-SNAPSHOT.war file to Tomcat Server') { 
             steps {
-                sh 'curl -u admin:Rhel@123 -T target/**.war "http://52.73.136.90:8080//manager/text/deploy?path=/cbapp&update=true"'
+                sh 'curl -u admin:Rhel@123 -T target/**.war "http://54.234.161.229:8080//manager/text/deploy?path=/cbapp&update=true"'
             }
         } 
   
           stage('Stage-10 : SmokeTest') { 
             steps {
-                sh 'curl --retry-delay 10 --retry 5 "http://52.73.136.90:8080//cbapp"'
+                sh 'curl --retry-delay 10 --retry 5 "http://54.234.161.229:8080//cbapp"'
             }
         }
 
