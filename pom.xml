@@ -19,7 +19,6 @@
         <sonar.login>sqp_8ee746fde97a6ec00ce8acc220cdeb1b116f1995</sonar.login>
        
     </properties>
-
     
 <distributionManagement>
     
