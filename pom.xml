@@ -24,13 +24,13 @@
     <repository>
         <id>releases</id>
         <name>jfrog.sainadh-releases</name>
-        <url>http://54.208.7.70:8081/artifactory/libs-release-local</url>
+        <url>http://184.72.118.137:8081/artifactory/libs-release-local</url>
     </repository>
 
     <snapshotRepository>
         <id>snapshots</id>
         <name>jfrog.sainadh-snapshots</name>
-        <url>http://54.208.7.70:8081/artifactory/libs-snapshot-local</url>
+        <url>http://184.72.118.137:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement> 
     
